@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonCake</title>
+    <link rel="shortcut icon" href="./imagenes/moonc.png">
+    <!--FUENTE 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <!--FUENTE 2-->
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Varela+Round&display=swap" rel="stylesheet">
+    <!--ICON-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        body{
+            background-image: url(./imagenes/cake-balls-g0b3cf8cf7_1920.jpg);
+        }
+        header{
+            background-color: rgb(255, 169, 169);
+            padding: 1px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Patua One', cursive;
+            color: rgb(216, 27, 27);
+            letter-spacing: 10px;
+            border: 1px solid rgb(253, 171, 171);
+        }
+        article {
+            padding: 50px;
+            width: 100%;
+            background-color: #ffeeee;
+            height: 1150px;
+            text-align: center;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 10px;
+            border-right: 1px solid rgb(253, 171, 171);
+            border-left: 1px solid rgb(253, 171, 171);
+        }
+        article h1{
+            font-family: 'Patua One', cursive;
+            color: #ff2566;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        article p{
+            font-family:'Patua One', cursive ;
+            color: #141313;
+            font-size: 20px;
+        }
+        nav {
+            width: 21%;
+            height: 310px;
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            margin: auto;
+            border: 2px solid palevioletred;
+            display:inline-table;
+            margin: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        nav p{
+            font-size: 13px;
+            text-align: justify;
+        }
+        nav ul li{
+            text-align: justify;
+            font-size: 12px;
+        }
+        .material-icons-outlined{
+            font-size: 48px;
+            color: rgb(192, 38, 38);
+        }
+        span.a{
+            font-size: 21px;
+            color: rgb(255, 255, 255);
+        }
+        hr{
+            background-color:palevioletred;
+            height: 2px;
+            border:0px;
+        }
+        @media (max-width: 600px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+        nav{
+            margin: 0px;
+            margin-block-end: 10px;
+        }
+        }
+        @media (max-width: 1000px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+        nav{
+            margin: 0px;
+            margin-block-end: 10px;
+        }
+        }
+        footer {
+            background-color: rgb(255, 206, 206);
+            padding: 12px;
+            text-align: center;
+            color: rgb(70, 70, 70);
+            border: 1px solid rgb(253, 171, 171);
+        }
+        button{
+            background-color: rgb(192, 38, 38);
+            border: 1px;
+            border-radius: 3px;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Varela Round', sans-serif;
+        }
+        input{
+            background-color: rgb(192, 38, 38);
+            border: 1px;
+            border-radius: 3px;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Varela Round', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="./imagenes/moonc.png" alt="Logo de MoonCake" width="60px">    MOONCAKE</h1>
+    </header>
+    <section>
+        <article>
+            <hr><h1>S A B O R E S &nbsp &nbsp D I S P O N I B L E S</h1><hr>
+            <p>Estos son las decoraciones disponibles en nuestra pastelería. ¡Tu pastel puede tener la que elijas!</p><br>
+            <nav>
+                <img src="./imagenes/chocolatee.jpg" alt="chocolate" width="200px" height="150px">
+                <h2>CHOCOLATES</h2><hr>
+                <p>Marcas disponibles:</p>
+                <ul>
+                    <li>Snickers</li>
+                    <li>KitKat</li>
+                    <li>Kinder</li>
+                    <li>Ferrero Rocher</li>
+                    <li>Hershey's</li>
+                </ul>
+            </nav>
+            <nav>
+                <img src="./imagenes/fruta.jpg" alt="frutas" width="200px" height="150px">
+                <h2>FRUTAS</h2><hr>
+                <p>Fruta disponible:</p>
+                <ul>
+                    <li>Frutos rojos</li>
+                    <li>Uva</li>
+                    <li>Durazno</li>
+                    <li>Cereza</li>
+                    <li>Kiwi</li>
+                </ul>
+            </nav>
+            <nav>
+                <img src="./imagenes/macarons.jpg" alt="macarons" width="200px" height="150px">
+                <h2>MACARONS</h2><hr>
+                <p>Sabores disponibles:</p>
+                <ul>
+                    <li>Limón</li>
+                    <li>Mango</li>
+                    <li>Chocolate</li>
+                    <li>Café</li>
+                    <li>Frambuesa</li>
+                </ul>
+            </nav>
+            <nav>
+                <img src="./imagenes/galleta.jpg" alt="galletas" width="200px" height="150px">
+                <h2>GALLETAS</h2><hr>
+                <p>Marcas disponibles:</p>
+                <ul>
+                    <li>Oreo</li>
+                    <li>Selecciones</li>
+                    <li>Chokis</li>
+                    <li>Emperador</li>
+                    <li>Marias</li>
+                </ul>
+            </nav><br>
+            <nav>
+                <img src="./imagenes/helado.jpg" alt="helado" width="200px" height="150px">
+                <h2>HELADO</h2><hr>
+                <p>Sabores disponibles:</p>
+                <ul>
+                    <li>Chocolate</li>
+                    <li>Vainilla</li>
+                    <li>Caramelo</li>
+                    <li>Vainilla</li>
+                    <li>Coco</li>
+                </ul>
+            </nav>
+            <nav>
+                <img src="./imagenes/fondant.jpg" alt="figura" width="200px" height="150px">
+                <h2>FIGURA CON FONDANT</h2><hr>
+                <p>Figuras disponibles:</p>
+                <ul>
+                    <li>Personajes de caricaturas</li>
+                    <li>Flores</li>
+                    <li>Sugerencia del cliente &nbsp &nbsp</li><br><br>
+                </ul>
+            </nav>
+            <nav>
+                <img src="./imagenes/boda.jpg" alt="boda" width="200px" height="150px">
+                <h2>ESPECIAL BODA</h2><hr>
+                <p>Figuras disponibles:</p>
+                <ul>
+                    <li>Elección hecha por el cliente</li><br><br><br>
+                </ul>
+            </nav>
+            <nav>
+                <img src="./imagenes/crema pastelera.jpg" alt="crema" width="200px" height="150px">
+                <h2>CREMA PASTELERA</h2><hr>
+                <p>Figuras disponibles:</p>
+                <ul>
+                    <li>Relleno</li>
+                    <li>Rosas</li>
+                    <li>Cobertura</li><br><br>
+                </ul>
+            </nav>
+            <br>
+            <br><a href="pasteleria_sabores.html" target="_blank"><button><span class="material-icons-outlined a">add_shopping_cart</span> HACER PEDIDO</button></a>
+        </article>
+    </section>
+    <footer>
+        <p>This product is protected by copyright and distributed under licenses restricting copying, distribution, and decompilation.</p>
+    </footer>
+</body>
+</html>

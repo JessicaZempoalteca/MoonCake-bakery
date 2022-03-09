@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonCake</title>
+    <link rel="shortcut icon" href="./imagenes/moonc.png">
+    <!--FUENTE 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <!--FUENTE 2-->
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Varela+Round&display=swap" rel="stylesheet">
+    <!--ICON-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        body{
+            background-image: url(./imagenes/cake-balls-g0b3cf8cf7_1920.jpg);
+        }
+        header{
+            background-color: rgb(255, 169, 169);
+            padding: 1px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Patua One', cursive;
+            color: rgb(216, 27, 27);
+            letter-spacing: 10px;
+            border: 1px solid rgb(253, 171, 171);
+        }
+        article {
+            padding: 50px;
+            width: 100%;
+            background-color: #ffeeee;
+            height: 610px;
+            text-align: center;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 10px;
+            border-right: 1px solid rgb(253, 171, 171);
+            border-left: 1px solid rgb(253, 171, 171);
+        }
+        article h1{
+            font-family: 'Patua One', cursive;
+            color: #ff2566;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        article p{
+            font-family:'Patua One', cursive ;
+            color: #141313;
+            font-size: 20px;
+        }
+        article.designs{
+            height: 680px;
+        }
+        nav {
+            width: 21%;
+            height: 310px;
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            margin: auto;
+            border: 2px solid palevioletred;
+            display:inline-table;
+            margin: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        nav p{
+            font-size: 13px;
+            text-align: justify;
+        }
+        .material-icons-outlined{
+            font-size: 48px;
+            color: rgb(192, 38, 38);
+        }
+        span.a{
+            font-size: 21px;
+            color: rgb(255, 255, 255);
+        }
+        hr{
+            background-color:palevioletred;
+            height: 2px;
+            border:0px;
+        }
+        @media (max-width: 600px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+        nav{
+            margin: 0px;
+            margin-block-end: 10px;
+        }
+        }
+        @media (max-width: 1000px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+        nav{
+            margin: 0px;
+            margin-block-end: 10px;
+        }
+        }
+        footer {
+            background-color: rgb(255, 206, 206);
+            padding: 12px;
+            text-align: center;
+            color: rgb(70, 70, 70);
+            border: 1px solid rgb(253, 171, 171);
+        }
+        button{
+            background-color: rgb(192, 38, 38);
+            border: 1px;
+            border-radius: 3px;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Varela Round', sans-serif;
+        }
+        input{
+            background-color: rgb(192, 38, 38);
+            border: 1px;
+            border-radius: 3px;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Varela Round', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="./imagenes/moonc.png" alt="Logo de MoonCake" width="60px">    MOONCAKE</h1>
+    </header>
+    <section>
+        <article>
+            <hr><h1>C A T E G O R Í A S</h1><hr>
+            <p>Pastelería 100% mexicana. Pasteles para todo tipo de ocasion.</p><br>
+            <nav>
+                <br><a href="pasteleria.html" target="_blank"><span class="material-icons-outlined">cake</span>
+                <h2>SABORES</h2></a><br><hr><br>
+                <p>Consulta los sabores de pasteles que tenemos disponibles. Tenemos una gran variedad de sabores.</p>
+                <br><a href="pasteleria_sabores.html" target="_blank"><button><span class="material-icons-outlined a">visibility</span></button></a>
+            </nav>
+            <nav>
+                <br><a href="pasteleria_adornos.html" target="_blank"><span class="material-icons-outlined">emoji_nature</span>
+                <h2>ADORNOS</h2></a><br><hr><br>
+                <p>Consulta los diferentes adornos que tenemos en stock. Contamos con una gran variedad de adornos para toda ocasión.</p>
+                <br><a href="pasteleria_adornos.html" target="_blank"><button><span class="material-icons-outlined a">visibility</span></button></a>
+            </nav>
+            <nav>
+                <br><a href="pasteleria_pedido.html" target="_blank"><span class="material-icons-outlined">add_box</span>
+                <h2>HACER PEDIDO</h2></a><br><hr><br>
+                <p>¿Ya sabes qué pedir? ¡Perfecto! Ahora realiza tu pedido con los sabores y adornos que te gustaría ver en tu pastel.</p>
+                <br><a href="pasteleria_pedido.html" target="_blank"><button><span class="material-icons-outlined a">rule</span></button></a>
+            </nav>
+            <nav>
+                <br><a href="pasteleria.html" target="_blank"><span class="material-icons-outlined">question_answer</span>
+                <h2>CONTACTO</h2></a><br><hr><br>
+                <p>¿Tienes alguna duda? Contactanos a través de nuestro correo electrónico con un mensaje explicando la situación.</p>
+                <br><a href="pasteleria_contacto.html" target="_blank"><button><span class="material-icons-outlined a">contact_support</span></button></a>
+            </nav>
+        </article>
+        <article class="designs">
+            <hr><h1>D I S E Ñ O S &nbsp &nbsp D E S T A C A D O S</h1><hr>
+            <p>Estos son los pedidos más comunes en nuestra pastelería. Tú puedes escoger el sabor del pastel.</p><br>
+            <nav>
+                <img src="./imagenes/red-velvet-cake-g87dfde242_1920.jpg" alt="Red Velvet Cake" width="200px" height="150px">
+                <h2>RED VELVET CAKE</h2><hr>
+                <p>Pastel "terciopelo rojo" debido a su característico color rojo intenso y su suave textura.</p><br>
+                <a href=""><input type="button" value="Hacer pedido"></a>
+            </nav>
+            <nav>
+                <img src="./imagenes/muffin-g29b97947e_1920.jpg" alt="Muffin" width="200px" height="150px">
+                <h2>MUFFIN STAR</h2><hr>
+                <p>Producto elaborado a base de pan con diferentes dulces y frutas de temporada.</p><br>
+                <a href=""><input type="button" value="Hacer pedido"></a>
+            </nav>
+            <nav>
+                <img src="./imagenes/cake-g218b66953_1920.jpg" alt="Birthday cake" width="200px" height="150px">
+                <h2>BIRTHDAY CAKE</h2><hr>
+                <p>Pastel de cumpleaños decorado con crema pastelera de diferentes sabores y consistencias.</p><br>
+                <a href=""><input type="button" value="Hacer pedido"></a>
+            </nav>
+            <nav>
+                <img src="./imagenes/cake-gefa4ee7d7_1920.jpg" alt="chessecake" width="200px" height="150px">
+                <h2>CHEESECAKE</h2><hr>
+                <p>Pastel elaborado a base de queso y combinado con almendras, nata y frutas.</p><br>
+                <a href=""><input type="button" value="Hacer pedido"></a>
+            </nav>
+        </article>
+    </section>
+    <footer>
+        <p>This product is protected by copyright and distributed under licenses restricting copying, distribution, and decompilation.</p>
+    </footer>
+</body>
+</html>

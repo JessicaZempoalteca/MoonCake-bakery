@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonCake</title>
+    <link rel="shortcut icon" href="./imagenes/moonc.png">
+    <!--FUENTE 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <!--FUENTE 2-->
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Varela+Round&display=swap" rel="stylesheet">
+    <!--ICON-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        body{
+            background-image: url(./imagenes/cake-balls-g0b3cf8cf7_1920.jpg);
+        }
+        header{
+            background-color: rgb(255, 169, 169);
+            padding: 1px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Patua One', cursive;
+            color: rgb(216, 27, 27);
+            letter-spacing: 10px;
+            border: 1px solid rgb(253, 171, 171);
+        }
+        article {
+            padding: 50px;
+            width: 100%;
+            background-color: #ffeeee;
+            height: 1200px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 10px;
+            border-right: 1px solid rgb(253, 171, 171);
+            border-left: 1px solid rgb(253, 171, 171);
+        }
+        article h1{
+            font-family: 'Patua One', cursive;
+            color: #ff2566;
+            font-size: 30px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        article p{
+            font-family:'Patua One', cursive ;
+            color: #141313;
+            font-size: 20px;
+            text-align: center;
+        }
+        nav {
+            width: 100%;
+            height: 630px;
+            background: rgb(255, 255, 255);
+            border: 2px solid palevioletred;
+        }
+        .material-icons-outlined{
+            font-size: 48px;
+            color: rgb(192, 38, 38);
+        }
+        span.a{
+            font-size: 21px;
+            color: rgb(255, 255, 255);
+        }
+        hr{
+            background-color:palevioletred;
+            height: 2px;
+            border:0px;
+        }
+        @media (max-width: 600px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+        nav{
+            margin: 0px;
+            margin-block-end: 10px;
+        }
+        }
+        @media (max-width: 1000px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+        nav{
+            margin: 0px;
+            margin-block-end: 10px;
+        }
+        }
+        footer {
+            background-color: rgb(255, 206, 206);
+            padding: 12px;
+            text-align: center;
+            color: rgb(70, 70, 70);
+            border: 1px solid rgb(253, 171, 171);
+        }
+        button{
+            background-color: rgb(192, 38, 38);
+            border: 1px;
+            border-radius: 3px;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Varela Round', sans-serif;
+        }
+        label{
+            font-family:'Patua One', cursive ;
+            color: #555555;
+            font-size: 15px;
+        }
+        input{
+            background-color: rgb(255, 255, 255);
+            border: 1px solid palevioletred;
+            border-radius: 3px;
+            font-size: 15px;
+            width: 100%;
+            height: 30px;
+            padding: 7px;
+        }
+        textarea{
+            background-color: rgb(255, 255, 255);
+            border: 1px solid palevioletred;
+            border-radius: 3px;
+            font-size: 15px;
+            width: 100%;
+            height: 160px;
+            padding: 7px;
+            resize: none;
+        }
+        form{
+            padding: 30px;
+        }
+        table {
+            width: 100%;
+            border: 1px solid rgb(255, 197, 197);
+            font-size: 15px;
+        }
+        th, td {
+            width: 14%;
+            text-align: left;
+            vertical-align: top;
+            border: 1px solid palevioletred;
+            border-collapse: collapse;
+            padding: 0.3em;
+            caption-side: bottom;
+        }
+        caption {
+            height: 50px;
+            padding-top: 10px;
+            color: rgb(255, 255, 255);
+            background: rgb(255, 100, 100);
+            font-family:'Patua One', cursive ;
+            font-size: 25px;
+        }
+        th {
+            background: rgb(255, 210, 210);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="./imagenes/moonc.png" alt="Logo de MoonCake" width="60px">    MOONCAKE</h1>
+    </header>
+    <section>
+        <article>
+            <hr><h1>P E D I D O S</h1><hr><br><br>
+            <nav>
+                <table class="default">
+                    <caption>P E N D I E N T E S</caption>
+                    <tr>
+                      <th >Fecha</th>
+                      <th>Nombre del clientes</th>
+                      <th>Teléfono</th>
+                      <th>Correo electrónico</th>
+                      <th>Descripción del pastel</th>
+                      <th>Selección de sabores</th>
+                      <th>Selección de adornos</th>
+                    </tr>
+                    <tr>
+                        <td>06-03-2022</td>
+                      <td>Yazmin Flores</td>
+                      <td>222 254 1255</td>
+                      <td>yazmin.flores@gmail.com</td>
+                      <td>El pastel es para un niño de 3 años, será su cumpleaños, por lo que quiero que la crema pastelera no contenga tanta azucar.</td>
+                      <td>1 de chocolate, 1 de fresa</td>
+                      <td>Frutos rojos</td>
+                    </tr>
+                    <tr>
+                        <td>05-03-2022</td>
+                      <td>Emilio Valencia</td>
+                      <td>951 455 7789</td>
+                      <td>emilio.valencia@gmail.com</td>
+                      <td>El pastel será para una boda. Quiero que tenga 4 pisos con los respectivos sabores.</td>
+                      <td>2 de chocolate, 2 de limon</td>
+                      <td>Figura de novios en el piso más alto.</td>
+                    </tr>
+                  </table>
+            </nav>
+        </article>
+    </section>
+    <footer>
+        <p>This product is protected by copyright and distributed under licenses restricting copying, distribution, and decompilation.</p>
+    </footer>
+</body>
+</html>
